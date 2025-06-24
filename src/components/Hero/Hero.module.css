@@ -1,0 +1,33 @@
+.hero {
+    width: 100%;
+    height: 100dvh;
+    position: relative;
+    color: white;
+    background-image: url("/hero.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    padding-right: 64px;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 3rem;
+    color: #f7f7f7;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #f7f7f7;
+}

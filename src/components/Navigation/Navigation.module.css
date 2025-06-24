@@ -1,0 +1,94 @@
+.navbar {
+    background-color: #f7f7f7;
+    padding: 28px 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2f4f7;
+    position: relative;
+}
+
+.navList {
+    display: flex;
+    gap: 32px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+/* Mobil görünüm için gizle */
+.navListMobileHidden {
+    display: none;
+}
+
+/* Hamburger menüsü tıklanınca göster */
+.navListMobileVisible {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f7f7f7;
+    padding: 16px;
+    border: 1px solid #f2f4f7;
+    z-index: 10;
+}
+
+.link {
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+}
+
+.activeLink {
+    text-decoration: none;
+    color: #e44848;
+}
+
+.menuButton {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Tablet ve daha küçük ekranlar için */
+@media (max-width: 768px) {
+    .navList {
+        display: none;
+    }
+
+    .menuButton {
+        display: block;
+    }
+}
+.navListMobileVisible {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f7f7f7;
+    padding: 16px;
+    border: 1px solid #f2f4f7;
+    z-index: 10;
+
+    list-style: none;
+    margin: 0;
+
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    } }

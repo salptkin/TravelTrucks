@@ -1,0 +1,16 @@
+import { Routes, Route } from "react-router-dom";
+//import CatalogPage from "./pages/CatalogPage";
+import HomePage from "./pages/HomePage";
+//import TrackDetailsPage from "./pages/DetailsPage";
+//import NotFoundPage from "./pages/NotFoundPage";
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      
+    </Routes>
+  );
+}
+
+export default App;
