@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: #10182899;
+}
+
+.inputWrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 18px 20px;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+}
+
+.input {
+    color: #101828;
+    outline: none;
+    border: none;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
