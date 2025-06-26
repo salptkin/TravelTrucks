@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Navigation from "../components/Navigation/Navigation";
 import useFetchAndDispatch from "../hooks/useFetchAndDispatch";
 //import CatalogMainContent from "../components/CatalogMainContent/CatalogMainContent";
-import CatalogSideContent from "../components/CatalogSideContent/CatalogSideContent"
+import CatalogSideContent from "../components/CatalogSideContent/CatalogSideContent";
 import styles from "./CatalogPage.module.css";
 
 function CatalogPage() {
