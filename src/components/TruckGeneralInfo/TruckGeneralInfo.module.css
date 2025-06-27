@@ -1,0 +1,84 @@
+.card {
+    border: 1px solid #dadde1;
+    padding: 24px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 888px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.inner {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    max-width: 840px;
+    box-sizing: border-box;
+}
+
+
+.image {
+    width: 292px;
+    height: 320px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.titleRow {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ratingRow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.iconText {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.heartIcon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

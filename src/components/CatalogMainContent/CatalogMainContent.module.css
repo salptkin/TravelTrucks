@@ -1,0 +1,16 @@
+.truckList {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.notFound {
+    width: 60vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.notFoundList {
+    list-style: none;
+}
