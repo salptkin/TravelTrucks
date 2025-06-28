@@ -1,0 +1,71 @@
+/* Sayfaya özel stil container'ı */
+.notFoundPage__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Sayfa içeriği (başlık ve paragraf) */
+.notFoundPage__textContainer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.notFoundPage__title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.notFoundPage__description {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.notFoundPage__buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .notFoundPage__textContainer {
+        margin-bottom: 20px;
+    }
+
+    .notFoundPage__title {
+        font-size: 2.5rem;
+    }
+
+    .notFoundPage__description {
+        font-size: 1rem;
+    }
+
+    .notFoundPage__buttonContainer {
+        
+        gap: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .notFoundPage__textContainer {
+        margin-bottom: 15px;
+    }
+
+    .notFoundPage__title {
+        font-size: 2rem;
+    }
+
+    .notFoundPage__description {
+        font-size: 0.875rem;
+    }
+
+    .notFoundPage__buttonContainer {
+        gap: 10px;
+    }
+}
