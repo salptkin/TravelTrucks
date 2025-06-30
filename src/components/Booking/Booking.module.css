@@ -1,0 +1,32 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.input {
+    padding: 18px;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+}
+
+.textarea {
+    padding: 18px;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    height: 112px;
+    border: none;
+    resize: vertical;
+    font-size: 1rem;
+}
+
+.error {
+    color: #ef4444;
+    font-size: 0.875rem;
+}
+
+.buttonWrapper {
+    align-self: center;
+}

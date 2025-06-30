@@ -4,7 +4,11 @@ import axiosInstance from "../utils/axios";
 import { CircleLoader } from "react-spinners";
 import toast, { Toaster } from "react-hot-toast";
 import Navigation from "../components/Navigation/Navigation";
+import TruckImg from "../components/TruckImg/TruckImg"
+import TruckInfo from "../components/TruckInfo/TruckInfo";
 import FeatureInfo from "../components/FeatureInfo/FeatureInfo";
+import Booking from "../components/Booking/Booking";
+
 
 function DetailsPage() {
 const { id } = useParams();
@@ -42,7 +46,6 @@ const { id } = useParams();
     return (
         <>
         <Navigation />
-        
         </>
     )
 }

@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    color: #101828;
+    font-size: 1.5rem;
+    /* text-2xl */
+    font-weight: 600;
+    /* font-semibold */
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rating,
+.location {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.rating {
+    text-decoration: underline;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
