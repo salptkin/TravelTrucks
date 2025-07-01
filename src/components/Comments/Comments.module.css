@@ -1,0 +1,42 @@
+.commentCard {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.commentHeader {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.avatar {
+    background-color: #f2f4f7;
+    border-radius: 9999px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e44848;
+    font-weight: 600;
+    font-size: 1.5rem;
+    /* text-2xl */
+}
+
+.reviewerName {
+    font-weight: 500;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+    list-style: none;
+}
+
+.commentText {
+    color: #475467;
+    font-size: 1rem;
+}
