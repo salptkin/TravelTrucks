@@ -9,6 +9,7 @@ import TruckInfo from "../components/TruckInfo/TruckInfo";
 import FeatureInfo from "../components/FeatureInfo/FeatureInfo";
 import Comments from "../components/Comments/Comments";
 import Booking from "../components/Booking/Booking";
+import TruckInfoList from "../components/TruckInfoList/TruckInfoList";
 import styles from "./DetailsPage.module.css";
 
 
@@ -101,6 +102,8 @@ const { id } = useParams();
                   <div>
                     <h3 className={styles.vehicleInfo}>Vehicle details</h3>
                     <div className={styles.divider}></div>
+    
+                    <TruckInfoList truck={truck} />
                   </div>
                 </div>
               )}
