@@ -7,7 +7,7 @@ const initialState = {
   tv: "",
   bathroom: "",
   kitchen: "",
-  form: [],
+  form: "",
 };
 
 const filterSlice = createSlice({
@@ -25,3 +25,4 @@ const filterSlice = createSlice({
 
 export const { updateFilters, resetFilters } = filterSlice.actions;
 export default filterSlice.reducer;
+

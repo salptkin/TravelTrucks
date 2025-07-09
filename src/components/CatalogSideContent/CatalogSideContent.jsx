@@ -27,10 +27,10 @@ function CatalogSideContent() {
           <div className={styles.divider}></div>
 
           <ul className={styles.filterList}>
-            <FilterOptions iconName="ac" text="AC" filterName="ac" filterValue="true" />
+            <FilterOptions iconName="ac" text="AC" filterName="AC" filterValue="true" />
             <FilterOptions iconName="automatic" text="Automatic" filterName="transmission" filterValue="automatic" />
             <FilterOptions iconName="kitchen" text="Kitchen" filterName="kitchen" filterValue="true" />
-            <FilterOptions iconName="tv" text="TV" filterName="tv" filterValue="true" />
+            <FilterOptions iconName="tv" text="TV" filterName="TV" filterValue="true" />
             <FilterOptions iconName="bathroom" text="Bathroom" filterName="bathroom" filterValue="true" />
           </ul>
         </div>
