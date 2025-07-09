@@ -7,7 +7,7 @@ const initialState = {
   tv: "",
   bathroom: "",
   kitchen: "",
-  form: "",
+  form: [],
 };
 
 const filterSlice = createSlice({
