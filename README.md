@@ -33,10 +33,18 @@ TravelTrucks, kullanıcıların farklı karavan modellerini keşfetmesini, filtr
    npm i
    ```
 
-4. Uygulamyı başlatın
+4. Uygulamayı başlatın
 
    ```bash
    npm run dev
    ```
 
 5. Tarayıcınızda http://localhost:5173 adresini açarak uygulamayı görüntülebilirsiniz.
+
+## ✍️ Yazar
+
+**Samet Alptekin Eroğlu**  
+[salptkin](https://github.com/salptkin)
+
+**Canlı sayfa:**
+(https://travel-trucks-five-psi.vercel.app)
